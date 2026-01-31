@@ -1,5 +1,5 @@
 const cron = require("node-cron");
-const Student = require("../models/Student.model");
+const Student = require("../models/student.model");
 
 // 1️⃣ The function that updates overdue installments
 const updateOverdueInstallments = async () => {

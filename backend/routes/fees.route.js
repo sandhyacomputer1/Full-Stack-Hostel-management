@@ -1,9 +1,9 @@
 const express = require("express");
 const { body, validationResult } = require("express-validator");
 const mongoose = require("mongoose");
-const Fee = require("../models/Fees.model");
+const Fee = require("../models/fees.model");
 const AuditLog = require("../models/auditLog.model");
-const Student = require("../models/Student.model");
+const Student = require("../models/student.model");
 const twilioService = require("../services/twilioService");
 
 const {
